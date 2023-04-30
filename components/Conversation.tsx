@@ -22,8 +22,8 @@ const Conversation = ({ conversation, isLoading }:Props) => {
                     <img src='/ic_logo.svg'
                          alt='' />
                     {isLoading ? (<img src='/ic_loading.svg'
-                                       alt=''ㅇ
-                        className={styles.loading}/>)
+                                       alt=''
+                                       className={styles.loading}/>)
                       : <p>{conversation.answer}</p>}
 
                 </article>
