@@ -26,7 +26,7 @@ const GuideSection = () => (
                     Examples
                 </div>
                 <div className={styles.guideBox}>
-                    쉼표에 대해 알려줘
+                    쉼표의 일정에 대해 알려줘
                 </div>
                 <div className={styles.guideBox}>
                     쉼표의 저녁 메뉴는 어떤 것이고 메뉴는 뭐야?
@@ -65,7 +65,7 @@ const GuideSection = () => (
                     쉼표에 대해 학습했으며 정보는 2021년에 머물러 있습니다
                 </div>
                 <div className={styles.guideBox}>
-                    너무 많은 질문을 하시면 해시의 통장이 아픕니다.
+                    잘 모르는 것에 대해 우기는 경향이 있습니다
                 </div>
             </div>
         </section>
