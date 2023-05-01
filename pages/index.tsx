@@ -17,7 +17,8 @@ const HomePage = () => {
     [conversations, isLoading],
   );
   const sendQuestion = () => {
-    if (question.length === 0) {
+    // 질문 내용이 없거나 로딩 중일때는 수행 X
+    if (question.length === 0 || isLoading) {
       return;
     }
     const c: Conversation = {
